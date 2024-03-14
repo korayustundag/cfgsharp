@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net48;net6;net7;net8</TargetFrameworks>
+    <Platforms>AnyCPU;x64;x86</Platforms>
+    <AssemblyName>libcfg</AssemblyName>
+    <RootNamespace>CfgSharp</RootNamespace>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <PackageId>CfgSharp</PackageId>
+    <Title>Config File Management</Title>
+    <Version>1.0.0</Version>
+    <Authors>Koray USTUNDAG</Authors>
+    <Company>Koray USTUNDAG</Company>
+    <Product>Configuration File Management</Product>
+    <Description>It provides methods to create, read, modify, and delete entries within a configuration file.</Description>
+    <Copyright>Copyright © Koray Ustundag 2024</Copyright>
+    <PackageProjectUrl>https://github.com/korayustundag/cfgsharp</PackageProjectUrl>
+    <PackageIcon>cfg_logo.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/korayustundag/cfgsharp</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>config file management</PackageTags>
+    <PackageReleaseNotes>First Release</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <IncludeSymbols>False</IncludeSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="cfg_logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="README.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
